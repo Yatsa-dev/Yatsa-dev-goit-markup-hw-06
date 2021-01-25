@@ -605,6 +605,78 @@ ul {
 
   color: var(--second-text-color);
 }
+
+/* Footer form */
+.subcription {
+  margin-left: auto;
+}
+.subcription-footer {
+  display: flex;
+  align-items: baseline;
+}
+/* placeholder color: rgba(255, 255, 255, 0.6); */
+
+.email-area {
+  width: 358px;
+  height: 50px;
+
+  padding-left: 16px;
+
+  font-family: Roboto;
+
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+
+  transition-property: box-shadow;
+  transition: 250ms var(--timing-function);
+
+  background-color: inherit;
+  color: #ffffff;
+}
+.email-area:hover,
+.email-area:focus {
+  box-shadow: var(--shadow-litle);
+}
+.button-blue {
+  width: 200px;
+  height: 50px;
+
+  padding-left: 29px;
+  margin-left: 12px;
+
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
+  letter-spacing: 0.06em;
+
+  border: 0;
+
+  transition: 250ms var(--timing-function);
+  border-radius: 4px;
+
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.button-blue:hover,
+.button-blue:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.icon-absolute {
+  position: relative;
+}
+.telegram-icon {
+  position: absolute;
+  right: 13%;
+  bottom: 25%;
+}
+
 /* Modal window */
 .backdrop {
   position: fixed;
