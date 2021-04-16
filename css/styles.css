@@ -742,6 +742,35 @@ ul {
   fill: var(--accent-color);
   box-shadow: var(--shadow-big);
 }
+/* Modal form */
+.title-form {
+  margin: 40, 40, 0, 40;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+.form-field {
+  position: relative;
+  margin-bottom: 10px;
+}
+.form-field:nth-child(-n + 3) {
+  height: 40px;
+  width: 448px;
+}
+.text-field {
+  display: block;
+}
+textarea {
+  height: 120px;
+  width: 448px;
+  resize: none;
+}
+.primary-button.form {
+  width: 200px;
+  justify-content: center;
+}
+
 /* Стили для portfolio.html */
 /* Line Header */
 .head-max {
