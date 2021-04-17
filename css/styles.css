@@ -36,7 +36,10 @@ h6 {
 /* Стили для index.html */
 
 /* Header */
-
+/* Line Header */
+.head-max {
+  border-bottom: 1px solid #ececec;
+}
 .site-contacts {
   margin-left: auto;
   align-items: center;
@@ -898,11 +901,7 @@ ul {
 
   color: var(--accent-color);
 }
-/* Стили для portfolio.html */
-/* Line Header */
-.head-max {
-  border-bottom: 1px solid #ececec;
-}
+
 /*Стили для portfolio.html */
 .primary-filter {
   padding: 94px 0px;
