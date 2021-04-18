@@ -39,6 +39,7 @@ h6 {
 /* Line Header */
 .head-max {
   border-bottom: 1px solid #ececec;
+  margin-bottom: 94px;
 }
 .site-contacts {
   margin-left: auto;
@@ -790,7 +791,6 @@ ul {
 .form-field:hover,
 .form-field:focus {
   border: 1px solid #2196f3;
-  outline: 1px solid #2196f3;
   box-sizing: border-box;
   border-radius: 4px;
 
@@ -861,7 +861,6 @@ ul {
 .comments:hover,
 .comments:focus {
   border: 1px solid #2196f3;
-  outline: 1px solid #2196f3;
   box-sizing: border-box;
   border-radius: 4px;
 
