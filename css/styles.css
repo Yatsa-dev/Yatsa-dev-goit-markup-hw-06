@@ -869,6 +869,39 @@ ul {
 }
 .check-agreement {
   margin-bottom: 30px;
+  position: relative;
+}
+
+.check-input {
+  appearance: none;
+  box-shadow: var(--shadow-big);
+
+  transition: 250ms var(--timing-function);
+}
+.check-input:checked + .check-icon {
+  border-color: var(--accent-color);
+  background-color: var(--accent-color);
+  background-image: url(../images/icon--check.svg);
+  background-size: contain;
+  background-origin: border-box;
+}
+.check-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+
+  border: solid 2px #212121;
+  border-radius: 2px;
+
+  transition: 250ms var(--timing-function);
+}
+.check-icon:hover,
+.check-icon:focus{
+  box-shadow: var(--shadow-litle);
 }
 .general-modal {
   position: relative;
@@ -888,6 +921,7 @@ ul {
   transition: 250ms var(--timing-function);
 }
 .text-agreement {
+  padding-left: 22px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -895,6 +929,7 @@ ul {
   letter-spacing: 0.03em;
 
   color: (var--) var(--primary-text-color);
+
 }
 .part-text {
   text-decoration: underline;
@@ -902,6 +937,7 @@ ul {
   color: var(--accent-color);
 }
 
+}
 /*Стили для portfolio.html */
 .primary-filter {
   padding: 94px 0px;
