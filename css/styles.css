@@ -39,7 +39,6 @@ h6 {
 /* Line Header */
 .head-max {
   border-bottom: 1px solid #ececec;
-  margin-bottom: 94px;
 }
 .site-contacts {
   margin-left: auto;
@@ -899,7 +898,7 @@ ul {
   transition: 250ms var(--timing-function);
 }
 .check-icon:hover,
-.check-icon:focus{
+.check-icon:focus {
   box-shadow: var(--shadow-litle);
 }
 .general-modal {
@@ -928,7 +927,6 @@ ul {
   letter-spacing: 0.03em;
 
   color: (var--) var(--primary-text-color);
-
 }
 .part-text {
   text-decoration: underline;
@@ -936,8 +934,8 @@ ul {
   color: var(--accent-color);
 }
 
-}
 /*Стили для portfolio.html */
+
 .primary-filter {
   padding: 94px 0px;
 }
